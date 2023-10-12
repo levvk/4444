@@ -9,7 +9,9 @@ public class Main3
          int ch2 =scan.nextInt();
          int ymnog = ch1*ch2;
          System.out.println(ch1+"*"+ch2+"="+ymnog);
-         
+         System.outprintln("Введите третье число, чтобы я разделила ваше полученное число");
+         int delu =scan.nextInt();
+         System.out.println(ymnog+"/"+delu+"="+(ymnog/delu));
          System.out.println("Введите число 1 чтобы продолжить умножение или любое другое число чтобы закончить");
          int NachaloOrKonec = scan.nextInt();
             if(NachaloOrKonec>1){
