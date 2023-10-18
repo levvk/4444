@@ -9,7 +9,6 @@ public class Main
          int ch2 =scan.nextInt();
          int ymnog = ch1*ch2;
          System.out.println(ch1+"*"+ch2+"="+ymnog);
-         
          System.out.println("Введите число 1 чтобы продолжить умножение или любое другое число чтобы закончить");//конец цикла
          int NachaloOrKonec = scan.nextInt();
             if(NachaloOrKonec>1){
